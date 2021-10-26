@@ -96,9 +96,9 @@ training_data_list = training_data_file.readlines()
 training_data_file.close()
 
 #Optimal range 4 for MNIST hand written data
-#Optimal range 3 for MNIST fashion data
+#Optimal range 6 for MNIST fashion data (more yeilds margionally better but at far greater compute time)
 
-for x in range(3):
+for x in range(6):
 
     # Train the neural network on each trainingsample
     for record in training_data_list:
