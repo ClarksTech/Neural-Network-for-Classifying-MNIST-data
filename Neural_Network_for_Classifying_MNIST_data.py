@@ -83,7 +83,7 @@ class NeuralNetwork:
 
 #Create Neural Network - optimal for MNIST fashion data
 input_nodes = 784
-hidden_nodes = 397
+hidden_nodes = 595
 output_nodes = 10
 learning_rate = 0.02
 
